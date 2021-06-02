@@ -1,0 +1,26 @@
+body {
+    background-color: black;
+}
+
+.navbar {
+  background-color: black;
+  border: 3px inset rgba(93,116,237,0.63);
+}
+
+svg {
+fill: #1AF93B ;
+animation: 2s linear infinite svg--animation;
+}
+
+svg:hover {
+fill: red;
+}
+
+@keyframes svg--animation {
+0% {
+  transform: rotateZ(0deg);
+}
+100% {
+  transform: rotateZ(360deg)
+}
+}
